@@ -36,7 +36,19 @@
 .text{
 	text-align: center;
 }
-@media only screen and (min-width: 320px) and (max-width: 768px){
+@media only screen and (min-width: 320px) and (max-width: 480px){
+	.child{
+		width: 100%;
+	}
+	.child2{
+		width: 260%;
+	}
+	h1 {
+		color: #80ff00;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px){
 	.child{
 		width: 100%;
 	}
@@ -44,6 +56,29 @@
 		width: 100%;
 	}
 	h1 {
-		color: #80ff00;
+		color: #17a2b8;
 	}
 }
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.child{
+		width: 100%;
+	}
+	.child2{
+		width: 200%;
+	}
+	h1 {
+		color: #dc3545;
+	}
+}
+@media only screen and (min-width: 1024px){
+	.child{
+		width: 100%;
+	}
+	.child2{
+		width: 200%;
+	}
+	h1 {
+		color: #dc3545;
+	}
+}
+
