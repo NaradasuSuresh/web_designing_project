@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>::Javascript Practice::</title>
+	<style>
+		.main{
+			display: flex;
+			justify-content: center;
+
+		}
+		#first,
+		#second{
+			width: 30%;
+			border: 1px solid #ddd;
+			padding: 1%;
+			margin: 1%;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="main">
+		<div id="first">
+			A
+		</div>
+		<div id="second">
+			B
+		</div>
+	</div>
+	<div class="main">
+		second parent
+	</div>
+</body>
+</html>
+<script>
+	// document.write("This is a DOM");
+	var first=document.getElementById("first");
+	var classAtrribute=document.getElementsByClassName("main");
+	var tagAtrribute=document.getElementsByTagName("body");
+	console.log(tagAtrribute[0]);
+	// console.log(classAtrribute[0]);
+	// console.log(classAtrribute[1]);
+</script>

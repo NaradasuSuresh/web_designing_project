@@ -1,0 +1,35 @@
+.child{
+	width: 20rem;
+	border: 1px solid #848484;
+	text-align: center;
+	border-radius: 5%;
+	box-shadow: 0px 8px 8px -8px #000;
+	margin-bottom: 1%;
+}
+.details{
+	display: flex;
+}
+.details img{
+	width: 10%;	
+}
+.child img{
+	width: 100%;
+}
+.main{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+/*extra small devices:320-480px
+small devices: 481-767px
+for ipad: 768-991px
+for large devices: minmum 1024px*/
+/*Media query for extra small and small devices*/
+@media only screen and (min-width: 320px) and (max-width: 768px){
+	.child{
+		width: 100%;
+	}
+	h2 {
+		color: #80ff00;
+	}
+}

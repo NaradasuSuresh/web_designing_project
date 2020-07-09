@@ -1,0 +1,49 @@
+.child{
+	width: 20rem;
+	border: 2px solid #ddd;
+	border-radius: 5%;
+	box-shadow: 0px 8px 8px -8px #000;
+	text-align: center;
+	margin-bottom: 1%;
+	padding: 1%;
+}
+.pic{
+	border-radius: 100%;
+}
+.contacts{
+	display: flex;
+}
+.child img{
+	width: 50%;
+
+}
+.contacts img{
+	width: 50%;
+}
+.parent{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.child2{
+	width: 70%;
+	border: 2px solid #ddd;
+	border-radius: 2%;
+	box-shadow: 0px 8px 8px -8px #000;
+	margin-bottom: 1%;
+	padding: 1%;
+}
+.text{
+	text-align: center;
+}
+@media only screen and (min-width: 320px) and (max-width: 768px){
+	.child{
+		width: 100%;
+	}
+	.child2{
+		width: 100%;
+	}
+	h1 {
+		color: #80ff00;
+	}
+}
